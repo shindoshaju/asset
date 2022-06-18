@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>asset form</title>
+<link rel="stylesheet" href="ssc.css">
+</head>
+<body>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+	 <section>
+  <div class="container">
+    <form action="https://formspree.io/f/mpzbnydw" method="POST" id="my-form">
+	<div class="form-group">
+        <label for="fullname">Name of Employee</label>
+        <input type="text" id="fullname" name="fullname">
+    </div>
+
+      <div class="form-group">
+        <label for="firstName">Asset Tag</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+	  
+
+      <div class="form-group">
+        <label for="latsName">Serial Number</label>
+        <input type="number" id="lastName" name="lastName">
+      </div>
+	  <div class="form-group">
+        <label for="asset">Asset Type</label>
+        <input type="text" id="asset" name="asset">
+      </div>
+	  <div class="form-group">
+        <label for="department">Department</label>
+        <input type="text" id="department" name="department">
+      </div>
+	  <div class="form-group">
+        <label for="usedby">Used by</label>
+        <input type="text" id="usedby" name="usedby">
+      </div>
+	  <div class="form-group">
+        <label for="managedby">Managed by</label>
+        <input type="text" id="managedby" name="managedby">
+      </div>
+	  <div class="form-group">
+        <label for="status of asset">Status of asset</label>
+        <Select name="tom" id="tom">
+		<option value="In Use">In Use</option>
+		<option value="Not In Use">Not In Use</option>
+		</select>
+      </div>
+	  <div class="form-group">
+        <label for="cost">Cost</label>
+        <input type="Number" id="cost" name="cost">
+      </div>
+
+      <div class="form-group">
+        <label for="purchased on">Purchased on</label>
+        <input type="date" id="purchased on" name="purchased on">
+      </div>
+	  <div class="form-group">
+        <label for="end">End of contract on</label>
+        <input type="date" id="end" name="end">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Contract Notes</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+	  <script src="sj.js"></script>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+</body>
+</html>
